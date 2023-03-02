@@ -38,6 +38,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
+  margin-bottom: 100px;
 }
 .list__item .item{
   cursor: pointer;
@@ -46,6 +47,8 @@
   height: 406px;
   overflow: hidden;
   box-shadow: 0px 12px 28px rgb(0 0 0 / 14%);
+  background-position: center;
+  background-size: cover;
 }
 
 .list__item .item .item__title{
@@ -54,13 +57,14 @@
   align-items: center;
   justify-content: space-around;
   width: 90%;
-  height: 55px;
+  height: 70px;
   background-color: rgb(255, 255, 255);
   bottom: 5%;
   right: 5%;
   border-radius: 5px;
   box-shadow: 0px 12px 28px rgb(0 0 0 / 14%);
   font-weight: bolder;
+  padding: 20px;
 }
 
 .list__item .item .item__title p{
